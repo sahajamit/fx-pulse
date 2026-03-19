@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0C0D10;
+  --foreground: #E8EAED;
+  --surface-1: #13141A;
+  --surface-2: #1A1B23;
+  --surface-3: #22232D;
+  --border: #262730;
+  --border-hover: #363740;
+  --accent-blue: #2962FF;
+  --green: #00C48C;
+  --red: #FF4757;
+  --amber: #FFB020;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* AG Grid overrides */
+.ag-root-wrapper {
+  border: none !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0C0D10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262730;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #363740;
+}
+
+/* Price flash animation */
+@keyframes flash-up {
+  0% { background-color: rgba(0, 196, 140, 0.12); }
+  100% { background-color: transparent; }
+}
+
+@keyframes flash-down {
+  0% { background-color: rgba(255, 71, 87, 0.12); }
+  100% { background-color: transparent; }
+}
+
+/* Select styling for dark theme */
+select option {
+  background-color: #13141A;
+  color: #E8EAED;
+}
