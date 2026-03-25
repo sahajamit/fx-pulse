@@ -4,7 +4,9 @@
 
 ![FX Pulse Overview](docs/screenshots/10-final-overview.png)
 
-## Demo
+## Demo Video - YouTube
+
+> Click the image below to watch the demo video on YouTube
 
 [![Watch the demo](https://img.youtube.com/vi/Lxkiqoyd4no/maxresdefault.jpg)](https://youtu.be/Lxkiqoyd4no)
 
