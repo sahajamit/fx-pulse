@@ -6,7 +6,7 @@
 
 ## Demo
 
-<video src="video-demo.mp4" controls width="100%"></video>
+https://github.com/sahajamit/fx-pulse/raw/main/video-demo.mp4
 
 ---
 
