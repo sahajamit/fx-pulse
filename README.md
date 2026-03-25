@@ -4,6 +4,10 @@
 
 ![FX Pulse Overview](docs/screenshots/10-final-overview.png)
 
+## Demo
+
+<video src="video-demo.mp4" controls width="100%"></video>
+
 ---
 
 ## Design
